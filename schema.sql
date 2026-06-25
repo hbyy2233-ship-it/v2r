@@ -327,7 +327,8 @@ Invoke-WebRequest -Uri "$env:GHPROXY/用户名/仓库名/releases/download/v1.0/
 
 # 或使用 curl (Windows 10+ 内置)
 curl -Lo file.zip "https://你的域名/proxy/YOUR_TOKEN/用户名/仓库名/releases/download/v1.0/file.zip"</code></pre>
-<p>也可以直接在浏览器中打开链接下载。</p>', 6, 1);
+<p>也可以直接在浏览器中打开链接下载。</p>', 6, 1)
+ON DUPLICATE KEY UPDATE `os_name`=`os_name`;
 
 -- ============================================================
 -- 9. 访问日志表（五元组 + 代理详情）
